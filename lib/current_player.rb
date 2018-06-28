@@ -1,7 +1,6 @@
 def turn_count(board)
   count = 10 
-  board.each |input| 
-    do 
+  board.each do |input| 
     
     
     end
