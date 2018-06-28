@@ -3,7 +3,13 @@ def turn_count(board)
   board.each do |input| 
     if input == "X" || input =="O"
       count += 1
-    else
-    
     end
+    puts count
+  end
+end
+
+
+
+def current_player(board)
+  if turn_count(board)%
 end
